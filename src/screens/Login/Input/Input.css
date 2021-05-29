@@ -1,0 +1,42 @@
+.regular-style{
+    border-radius: 10px;
+    padding: 10px;
+    background:#E8F0FE;
+    color: black;
+    border:0px;
+}
+.regular-style::placeholder{
+    font-size: 14px;
+    color: cadetblue;
+    opacity: 0.8;
+}
+.inputError{
+    border: 1px solid red;
+    color: red;
+    background: rgb(196, 163, 163);
+    border-radius: 10px;
+    padding: 10px;
+}
+.inputError ::placeholder{
+    color: red;
+}
+.labelError{
+    color: red;
+    font-size: 14px;
+    width: fit-content;
+    height: fit-content;
+}
+.hasErrorLabel {
+    color: red;
+    font-size: 14px;
+    width: fit-content;
+    height: fit-content;
+    background: rgb(224, 204, 204);
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding : 5px;
+    box-sizing: border-box;
+}

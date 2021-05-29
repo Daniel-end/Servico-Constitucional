@@ -1,0 +1,32 @@
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid #669933;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-top: 10%;
+    height: auto;
+    width: 550px;
+    padding-top: .5cm;
+}
+.loginContent {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buton{
+    margin: 15px;
+    border-radius: 10px;
+    background-color: #EEEEEE;
+    width: 100px;
+    border : 0px #EEEEEE;
+    padding: 8px;
+}
+
+button:hover {
+    background-color: #7C7C7C;
+}
